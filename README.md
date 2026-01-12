@@ -4,6 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hanc Christopher's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9acd32; /* Yellow Green */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0053a6;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            color: white;
+            background-color: #0078d7;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background-color: #0053a6;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Hanc Christopher's Website</h1>
+        <p>Explore the world of IT solutions and innovation with Hanc Christopher, an IT professional based in Mbeya. Let us help you achieve your technological goals with creativity and expertise.</p>
+        <a href="hanc.html" class="btn">Enter Website</a>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanc Christopher - IT Professional</title>
     <link rel="stylesheet" href="hanc.css">
     <style>
